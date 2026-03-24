@@ -1,0 +1,41 @@
+{
+  "schemaVersion": "hydra-carbon-battery.public-material-spec.v1",
+  "publicId": "hcbm-1",
+  "publicName": "Hydra Carbon Battery Material Candidate",
+  "materialFamily": "hybrid_redox_polymer_scaffold",
+  "status": "simulation_only_candidate",
+  "releaseScope": "material_only",
+  "intendedUse": "electrically regenerable CO2 capture material for bounded controlled concentrated gas streams",
+  "publicDesignIntent": {
+    "captureMode": "co2_selective_adsorption",
+    "releaseMode": "electrical_swing_primary",
+    "temperaturePosture": "room_temperature_adjacent",
+    "humidityPosture": "bounded_humidity_tolerant",
+    "integrationPosture": "conductive_support_and_cartridge_compatible"
+  },
+  "publicArchitecture": {
+    "porousCaptureDomain": true,
+    "redoxActiveDomain": true,
+    "conductivePathway": true,
+    "humidityManagementFeatures": true
+  },
+  "targetProperties": [
+    "co2_selective",
+    "humidity_tolerant",
+    "electrically_regenerable",
+    "cycle_capable",
+    "product_realistic"
+  ],
+  "boundedOperatingEnvelope": {
+    "feedType": "controlled_concentrated_stream",
+    "thermalRegeneration": "not_primary_mechanism",
+    "electricalWindow": "conservative",
+    "deploymentClaim": "none"
+  },
+  "disclosures": {
+    "wetLabValidated": false,
+    "externallyReplicated": false,
+    "performanceClaimPublished": false,
+    "discoveryMethodIncluded": false
+  }
+}

@@ -1,0 +1,10 @@
+Hydra Carbon Battery Material
+
+Copyright 2026 Contributors
+
+This package publishes the public material-side specification for the
+Hydra Carbon Battery program as a standalone public release boundary.
+
+The package intentionally excludes the internal discovery, ranking,
+optimization, and deployment machinery used inside the private or
+source-available Sovryn repository.
