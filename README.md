@@ -46,6 +46,7 @@ See [LICENSE](LICENSE) for the exact terms.
 ## What This Package Contains
 
 - [MATERIAL_SPEC.md](MATERIAL_SPEC.md)
+- [REPLICATION_BRIEF.md](REPLICATION_BRIEF.md)
 - [material-spec.json](material-spec.json)
 - [DISCLAIMER.md](DISCLAIMER.md)
 - [PUBLISHING.md](PUBLISHING.md)
@@ -62,6 +63,12 @@ See [LICENSE](LICENSE) for the exact terms.
 - no experimental performance data is included
 - no deployment or commercial-readiness claim is made
 - no claim is made that `hcbm-1` is the only viable material path
+
+## For Researchers
+
+If you want to evaluate, challenge, or attempt a first replication-oriented
+build of the public material concept, start with
+[REPLICATION_BRIEF.md](REPLICATION_BRIEF.md).
 
 ## Archive Integrity and Blockchain Anchor
 
