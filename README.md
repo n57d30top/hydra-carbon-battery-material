@@ -47,6 +47,7 @@ See [LICENSE](LICENSE) for the exact terms.
 
 - [MATERIAL_SPEC.md](MATERIAL_SPEC.md)
 - [REPLICATION_BRIEF.md](REPLICATION_BRIEF.md)
+- [EXPERIMENTAL_CHECKLIST.md](EXPERIMENTAL_CHECKLIST.md)
 - [material-spec.json](material-spec.json)
 - [DISCLAIMER.md](DISCLAIMER.md)
 - [PUBLISHING.md](PUBLISHING.md)
@@ -68,7 +69,8 @@ See [LICENSE](LICENSE) for the exact terms.
 
 If you want to evaluate, challenge, or attempt a first replication-oriented
 build of the public material concept, start with
-[REPLICATION_BRIEF.md](REPLICATION_BRIEF.md).
+[REPLICATION_BRIEF.md](REPLICATION_BRIEF.md) and
+[EXPERIMENTAL_CHECKLIST.md](EXPERIMENTAL_CHECKLIST.md).
 
 ## Archive Integrity and Blockchain Anchor
 
