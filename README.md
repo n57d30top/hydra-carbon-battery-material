@@ -46,6 +46,7 @@ See [LICENSE](LICENSE) for the exact terms.
 ## What This Package Contains
 
 - [MATERIAL_SPEC.md](MATERIAL_SPEC.md)
+- [SYNTHESIS_DIRECTION.md](SYNTHESIS_DIRECTION.md)
 - [REPLICATION_BRIEF.md](REPLICATION_BRIEF.md)
 - [EXPERIMENTAL_CHECKLIST.md](EXPERIMENTAL_CHECKLIST.md)
 - [material-spec.json](material-spec.json)
@@ -69,6 +70,7 @@ See [LICENSE](LICENSE) for the exact terms.
 
 If you want to evaluate, challenge, or attempt a first replication-oriented
 build of the public material concept, start with
+[SYNTHESIS_DIRECTION.md](SYNTHESIS_DIRECTION.md),
 [REPLICATION_BRIEF.md](REPLICATION_BRIEF.md) and
 [EXPERIMENTAL_CHECKLIST.md](EXPERIMENTAL_CHECKLIST.md).
 
