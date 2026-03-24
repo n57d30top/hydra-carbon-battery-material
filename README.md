@@ -39,7 +39,7 @@ The public design target is a material family that is:
 
 ## License
 
-This package is released under a dual-use, source-available license.
+This package is released as open-source software under the Apache License 2.0.
 
 See [LICENSE](LICENSE) for the exact terms.
 
@@ -53,7 +53,6 @@ See [LICENSE](LICENSE) for the exact terms.
 - [DISCLAIMER.md](DISCLAIMER.md)
 - [PUBLISHING.md](PUBLISHING.md)
 - [LICENSE](LICENSE)
-- [COMMERCIAL_LICENSE.md](COMMERCIAL_LICENSE.md)
 - [NOTICE](NOTICE)
 - [CONTRIBUTING.md](CONTRIBUTING.md)
 - [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md)

@@ -40,3 +40,8 @@ Before merging, verify:
 - documentation is internally consistent
 - release records still match the included archive when touched
 - no internal-only Hydra discovery artifacts were added by accident
+
+## Licensing
+
+By contributing, you agree that intentional contributions to this repository
+are made under the Apache License 2.0 used by this repository.

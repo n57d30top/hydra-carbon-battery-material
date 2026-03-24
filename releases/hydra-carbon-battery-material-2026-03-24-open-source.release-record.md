@@ -1,13 +1,12 @@
-# Hydra Carbon Battery Material Release Record
+# Hydra Carbon Battery Material Open-Source Release Record
 
-- Archive: `hydra-carbon-battery-material-2026-03-23.zip`
-- Archive Path: `C:\claude\SovrynClean\open-source\releases\hydra-carbon-battery-material-2026-03-23.zip`
-- Archive Size: `7504` bytes
-- Built At: `2026-03-23 21:36:14 Europe/Berlin`
+- Archive: `hydra-carbon-battery-material-2026-03-24-open-source.zip`
 - Hash Algorithm: `SHA-256`
-- Archive Hash: `84D116513912C5C1459201F1CC762A14F152F753F0B22223DBA9C970462836EA`
+- Archive Hash: `A712B3EE8F11D6E98C82CEE01AF83DCC1D9B20C5808C9CC122D34516D81281B3`
 - Secondary Hash Algorithm: `SHA3-256`
-- Secondary Hash: `919b2e4b70ceb843102da6457d91e1b8d58693a1e96580dbdaac647e53bbe2f2`
+- Secondary Hash: `2c9e1084e74e4f8a0fa6bb8b66519c38d037130c76b6da0dadff7f18cc845645`
+- Release Posture: `open-source`
+- License: `Apache-2.0`
 - Intended Anchor Chain: `Ethereum Base L2`
 - Onchain Anchor Status: `pending`
 - Onchain Transaction Hash: `not yet recorded`

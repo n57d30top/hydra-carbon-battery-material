@@ -30,6 +30,9 @@ The public claim is limited to:
 - the target property envelope
 - the honest `simulation-only` status
 
+This repository is intended to be publishable as an actual public open-source
+repository for the material candidate itself.
+
 ## Recommended Commit Shape
 
 Recommended public repository root:
