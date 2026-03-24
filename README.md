@@ -72,6 +72,7 @@ It combines:
 - material identity
 - synthesis direction
 - provisional recipe hypotheses
+- provisional build pack
 - replication guidance
 - experimental checklist
 - success and fail criteria

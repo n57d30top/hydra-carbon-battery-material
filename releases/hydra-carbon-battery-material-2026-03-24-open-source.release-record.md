@@ -2,9 +2,9 @@
 
 - Archive: `hydra-carbon-battery-material-2026-03-24-open-source.zip`
 - Hash Algorithm: `SHA-256`
-- Archive Hash: `E24E1C6F0EA806F3DF385E5C25C6F098A6099B495CC3822CBBCDFD35B360E03B`
+- Archive Hash: `BEBCA6BFD83C851B96753F9489449CD2BFA674C92298DB3A065713D6214F9B26`
 - Secondary Hash Algorithm: `SHA3-256`
-- Secondary Hash: `607369488453e426009cb5103df732205ba2fa03dfa4baf56b24046b54dde158`
+- Secondary Hash: `d2e87c4abe00000dc3f2fb8537e0c173f14a7e71556945bff0de10b66d52691b`
 - Release Posture: `open-source`
 - License: `Apache-2.0`
 - Intended Anchor Chain: `Ethereum Base L2`

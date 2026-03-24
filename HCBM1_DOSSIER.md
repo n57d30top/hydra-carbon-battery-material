@@ -9,6 +9,7 @@ It combines:
 - target properties
 - synthesis direction
 - provisional recipe hypotheses
+- provisional build pack
 - replication guidance
 - experimental checklist
 - success and fail criteria
@@ -126,6 +127,49 @@ Public formulation intent:
 - conductive support does most of the current-carrying work
 - humidity survivability prioritized over theoretical maximum uptake
 
+Public exact first-pass build hypothesis for `R1`:
+
+- scaffold monomer A: `divinylbenzene`
+- scaffold monomer B: `4-vinylbenzyl chloride`
+- redox motif precursor: `2,5-dihydroxy-1,4-benzoquinone`
+- hydrophobic tuning co-monomer: `4-tert-butylstyrene`
+- initiator: `AIBN`
+- conductive substrate: `carbon paper`
+
+Public first-pass molar feed hypothesis:
+
+- `divinylbenzene`: `55-70 mol%`
+- `4-vinylbenzyl chloride`: `15-25 mol%`
+- `4-tert-butylstyrene`: `10-20 mol%`
+- quinone functionalization target relative to benzyl chloride sites:
+  `35-60%`
+
+Public first-pass solvent hypothesis:
+
+- polymerization medium: `anisole` / `1,4-dioxane`
+- alternate polymerization medium: `DMF` / `anisole`
+- coating medium after workup: `NMP` / `ethanol`
+- alternate coating medium: `THF` / `ethanol`
+
+Public first-pass process hypothesis:
+
+1. radical copolymerization at `65-75 C`
+2. hold time `12-18 h`
+3. isolate crosslinked porous precursor
+4. quinone-functionalize benzyl-chloride-rich sites
+5. wash thoroughly
+6. formulate a thin coating slurry
+7. coat onto carbon paper
+8. dry at `60-90 C` under vacuum or inert purge
+
+Public first-pass electrochemical screening hypothesis:
+
+- electrolyte family: `0.1 M TBAPF6 in acetonitrile` for dry screening
+- optional humid-adjacent family: `0.1-0.5 M Na2SO4` aqueous or mixed-water
+  screening only after dry stability is confirmed
+- conservative bias window hypothesis: roughly `-0.8 V to +0.4 V` vs
+  `Ag/AgCl`, tightened if parasitic chemistry appears
+
 ### Recipe Hypothesis R2
 
 - Host direction: hypercrosslinked aromatic polymer
@@ -134,6 +178,23 @@ Public formulation intent:
 - Humidity direction: humidity-buffering co-component
 - Form factor: thin supported coating or coupon
 
+Public exact first-pass build hypothesis for `R2`:
+
+- scaffold monomer A: `divinylbenzene`
+- scaffold monomer B: `4-vinylphthalimide`
+- optional hydrophobic co-monomer: `styrene` or `4-tert-butylstyrene`
+- initiator: `AIBN`
+- conductive substrate: `carbon cloth`
+
+Public first-pass solvent/process hypothesis:
+
+- polymerization solvent: `DMF` / `anisole`
+- polymerization temperature: `65-75 C`
+- hold time: `12-16 h`
+- post-cure drying: `80-100 C`
+- optional humidity-buffering inactive fraction: low-loading porous carbon
+  additive
+
 ### Recipe Hypothesis R3
 
 - Host direction: conjugated porous polymer film
@@ -141,6 +202,152 @@ Public formulation intent:
 - Support direction: carbon paper
 - Humidity direction: conservative thin-film geometry plus mild hydrophobic
   treatment
+
+Public exact first-pass build hypothesis for `R3`:
+
+- aromatic diamine direction: `o-phenylenediamine`-like family
+- diketone/quinone coupling direction: `phenanthrenequinone`-like or
+  benzoquinone-adjacent family
+- conductive substrate: `carbon paper`
+- film posture: thinner than `R1`, with conductivity prioritized over loading
+
+Public first-pass process hypothesis:
+
+- condensation or oxidative coupling route under mild-to-moderate thermal
+  conditions
+- polar aprotic solvent family such as `DMF`, `DMSO`, or `NMP`
+- conservative post-treatment and no aggressive thermal graphitization
+
+## 6A. Provisional Build Pack
+
+This section exists to solve the biggest remaining weakness of the public repo:
+chemists need more than a thesis, they need a bounded first build pack.
+
+Everything in this section is still provisional and should be treated as a
+public starting hypothesis, not a validated final recipe.
+
+### 6A.1 Exact Public Monomer Candidates
+
+Preferred `R1` monomer and reagent set:
+
+- `divinylbenzene`
+- `4-vinylbenzyl chloride`
+- `4-tert-butylstyrene`
+- `2,5-dihydroxy-1,4-benzoquinone`
+- `AIBN`
+
+Preferred `R2` monomer and reagent set:
+
+- `divinylbenzene`
+- `4-vinylphthalimide`
+- `styrene` or `4-tert-butylstyrene`
+- `AIBN`
+
+Preferred `R3` building-block family:
+
+- `o-phenylenediamine` or related aromatic diamine family
+- `phenanthrenequinone` or benzoquinone-adjacent diketone/quinone family
+
+### 6A.2 Exact Public Stoichiometry Windows
+
+For `R1`, start with these molar-feed windows:
+
+- `divinylbenzene`: `60 mol%`
+- `4-vinylbenzyl chloride`: `25 mol%`
+- `4-tert-butylstyrene`: `15 mol%`
+
+Screen around that center point with:
+
+- `divinylbenzene`: `55-70 mol%`
+- `4-vinylbenzyl chloride`: `15-25 mol%`
+- `4-tert-butylstyrene`: `10-20 mol%`
+
+For quinone functionalization of `R1`, start with:
+
+- target substitution at `35-60%` of benzyl chloride handle population
+
+For `R2`, start with:
+
+- `divinylbenzene`: `50-65 mol%`
+- `4-vinylphthalimide`: `20-35 mol%`
+- `styrene` or `4-tert-butylstyrene`: `10-20 mol%`
+
+### 6A.3 Exact Public Solvent Windows
+
+For `R1` precursor polymerization:
+
+- `anisole` / `1,4-dioxane` at `1:1`
+- or `DMF` / `anisole` at `1:1`
+
+For `R1` coating slurry:
+
+- `NMP` / `ethanol`
+- or `THF` / `ethanol`
+
+For `R2` precursor polymerization:
+
+- `DMF` / `anisole`
+
+For `R3` exploratory condensation-film routes:
+
+- `DMF`
+- `DMSO`
+- `NMP`
+
+### 6A.4 Exact Public Process Windows
+
+For `R1` and `R2`, first-pass polymerization:
+
+- initiator loading: `0.5-2 mol%` relative to total vinyl content
+- thermal window: `65-75 C`
+- hold time: `12-18 h`
+- atmosphere: `nitrogen` or `argon`
+
+For drying and stabilization:
+
+- first-pass drying: `60-90 C`
+- post-cure or deeper dry: `80-100 C`
+- mode: `vacuum` or inert-gas purge
+
+For carbon-support coating:
+
+- thin coat target: `5-30 um` active layer equivalent
+- do not start with thick, mass-loaded coatings
+
+### 6A.5 Exact Public Electrolyte and Bias Windows
+
+Dry electrochemical screening start point:
+
+- electrolyte: `0.1 M tetrabutylammonium hexafluorophosphate` in
+  `acetonitrile`
+- reference posture: `Ag/AgCl`
+- bias window start point: `-0.8 V to +0.4 V`
+
+Humid-adjacent follow-up only after dry stability:
+
+- electrolyte family: `0.1-0.5 M sodium sulfate` aqueous or mixed-water screen
+- start narrower than the dry window if parasitic chemistry is seen
+
+### 6A.6 Atomistic Seed Files
+
+This repository now treats atomistic seed files as part of the public starting
+pack.
+
+They are not optimized crystal structures.
+
+They are:
+
+- seed fragments
+- approximate starting coordinates
+- enough for outside researchers to begin geometry cleanup, DFT preparation, or
+  structure assembly
+
+See:
+
+- `atomistic-seeds/hcbm1-r1-quinone-fragment.xyz`
+- `atomistic-seeds/hcbm1-r1-scaffold-repeat.xyz`
+- `atomistic-seeds/hcbm1-r2-imide-fragment.xyz`
+- `atomistic-seeds/hcbm1-r3-phenazine-fragment.xyz`
 
 ## 7. Public Process Direction
 
@@ -288,6 +495,7 @@ This dossier does not claim:
 - that any listed recipe hypothesis is validated
 - that `hcbm-1` is commercially ready
 - that physical truth already exists
+- that the atomistic seed coordinates are final optimized structures
 
 ## 15. Honest Bottom Line
 
