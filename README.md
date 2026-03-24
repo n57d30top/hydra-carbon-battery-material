@@ -45,10 +45,7 @@ See [LICENSE](LICENSE) for the exact terms.
 
 ## What This Package Contains
 
-- [MATERIAL_SPEC.md](MATERIAL_SPEC.md)
-- [SYNTHESIS_DIRECTION.md](SYNTHESIS_DIRECTION.md)
-- [REPLICATION_BRIEF.md](REPLICATION_BRIEF.md)
-- [EXPERIMENTAL_CHECKLIST.md](EXPERIMENTAL_CHECKLIST.md)
+- [HCBM1_DOSSIER.md](HCBM1_DOSSIER.md)
 - [material-spec.json](material-spec.json)
 - [DISCLAIMER.md](DISCLAIMER.md)
 - [PUBLISHING.md](PUBLISHING.md)
@@ -67,11 +64,17 @@ See [LICENSE](LICENSE) for the exact terms.
 
 ## For Researchers
 
-If you want to evaluate, challenge, or attempt a first replication-oriented
-build of the public material concept, start with
-[SYNTHESIS_DIRECTION.md](SYNTHESIS_DIRECTION.md),
-[REPLICATION_BRIEF.md](REPLICATION_BRIEF.md) and
-[EXPERIMENTAL_CHECKLIST.md](EXPERIMENTAL_CHECKLIST.md).
+If you want the single technical document for the candidate, use
+[HCBM1_DOSSIER.md](HCBM1_DOSSIER.md).
+
+It combines:
+
+- material identity
+- synthesis direction
+- provisional recipe hypotheses
+- replication guidance
+- experimental checklist
+- success and fail criteria
 
 ## Archive Integrity and Blockchain Anchor
 
